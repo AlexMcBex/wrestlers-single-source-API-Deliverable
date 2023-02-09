@@ -36,6 +36,6 @@ This application uses token authentication instead of sessions.
 
 | Verb   | URI Pattern            | Controller#Action |
 |--------|------------------------|-------------------|
-| POST  | `/champ/:wrestlerId`               | `champ#create`  |
-| PATCH | `/champ/:wrestlerId/:reignId`        | `champ#update`   |
-| DELETE | `/champ/:wrestlerId/:reignId`        | `champ#delete`   |
+| POST  | `/titles/:wrestlerId`               | `titles#create`  |
+| PATCH | `/titles/:wrestlerId/:titleId`        | `titles#update`   |
+| DELETE | `/titles/:wrestlerId/:titleId`        | `titles#delete`   |

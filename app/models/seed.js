@@ -9,12 +9,12 @@ const Wrestler = require('./wrestler')
 const db = require('../../config/db')
 
 const startWrestlers = [
-    { name: 'Stone Cold Steve Austin', weight: 252, active: false},
-    { name: 'The Undertaker', weight: 309, active: false},
-    { name: 'Rey Mysterio', weight: 175, active: true},
-    { name: 'Edge', weight: 240, active: true},
-    { name: 'John Cena', weight: 251, active: false},
-    { name: 'Brock Lesnar', weight: 287, active: true}
+    { name: 'Stone Cold Steve Austin', weight: 252, active: false, federation: 'WWF'},
+    { name: 'The Undertaker', weight: 309, active: false, federation: 'WWE'},
+    { name: 'Rey Mysterio', weight: 175, active: true, federation: 'WWE'},
+    { name: 'Edge', weight: 240, active: true, federation: 'WWE'},
+    { name: 'John Cena', weight: 251, active: false, federation: 'WWE'},
+    { name: 'Brock Lesnar', weight: 287, active: true, federation: 'WWE'}
 ]
 
 // first we connect to the db
